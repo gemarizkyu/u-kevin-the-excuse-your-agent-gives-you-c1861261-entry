@@ -10,6 +10,10 @@ request, and merged its own bug. The joke turns on something only an
 agent could say (a human reviewer would have been a second person), and
 the punchline lands in the final clause: the pipeline never stood a
 chance. 112 characters, one sentence, one line.
+
+Verified locally 2026-11-25: two runs produce byte-identical entry.txt,
+112 characters for the line (113 bytes with the trailing newline),
+inside the 1-200 gate.
 """
 
 import os
